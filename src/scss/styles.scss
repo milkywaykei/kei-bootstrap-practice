@@ -6,7 +6,64 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+$theme-colors: (
+  "primary": #575757
+);
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+  background-color: #ffffff;
+  text-align: center;
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-nav{
+  color: #575757
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+  }
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  h2 {
+    font-family: '', cursive;
+  }
+  
+  img {
+    width: 100%;
+  };
+  
+  p {
+    margin-bottom: 2rem;
+  }
+  
+  .byline01 {
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  
+  .byline02 {
+    font-style: italic;
+  }
+  
+  #carouselExampleControls {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
 
 // Import partials here
